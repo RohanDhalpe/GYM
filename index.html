@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan's Gym </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <style>
+        /* .{
+            box-sizing: border-box;
+        } */
+        body {
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/gym.jpg);
+            background-size: 1600px 824px;
+            font-family: 'Sono', sans-serif;
+
+        }
+
+        .header {
+            background-color: #ffb33cad;
+            margin: -27px -22px -142px -26px;
+            padding: 0px 8px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: -48px;
+            left: 32px;
+
+        }
+
+        .mid {
+
+            display: block;
+            width: 54%;
+            margin: 40px 380px;
+            font-family: 'Sono', sans-serif;
+            background-color: bisque;
+
+        }
+
+        .right {
+
+            display: inline-block;
+            position: absolute;
+            top: 19px;
+            right: 32px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 5px 5px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: rgb(3, 4, 5);
+            padding: 30px 20px;
+            font-family: 'Sono', sans-serif;
+            font-family: 'Source Serif Pro', serif;
+            text-decoration-style: double;
+            font-size: 17px;
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(34, 139, 11);
+        }
+
+        .left img {
+            width: 233px;
+        }
+
+
+        .btn {
+            background-color: red;
+            padding: 0 0px 0 0px;
+            border-radius: 6%;
+            cursor: pointer;
+            margin: 2px 2px;
+
+        }
+
+        .st {
+            -webkit-text-fill-color: white;
+
+        }
+
+        .st:hover {
+            -webkit-text-fill-color: black;
+
+        }
+
+        .container {
+            border: 4 px solid red;
+            /* background-color:  blanchedalmond; */
+            margin: 8px 8px;
+            padding: 131px 76px;
+        }
+
+        .form-class input {
+
+            text-align: center;
+            display: block;
+            width: 288px;
+            padding: 4px 5px;
+            margin: 8px 14px;
+            border-radius: 20px;
+            font-family: 'Sono', sans-serif;
+            font-family: 'Source Serif Pro', serif;
+
+        }
+
+        .sun {
+
+            background-color: #e6b277;
+            margin: 0px 14px;
+            padding: 4px 126px;
+            border-radius: 10px;
+        }
+
+        .sun:hover {
+            background-color: rgb(191, 63, 12);
+        }
+        .right{
+            padding: 2px 2px;
+            margin: 2px 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/Rohan - Made with PosterMyWall (1).png" alt="">
+            <div></div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Nutrition</a></li>
+                <li><a href="#">Training</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <button class="btn"><span>
+                        <li><a class="st" href="#">Get Started</a></li>
+                    </span></button>
+
+
+            </ul>
+        </div>
+        <!-- <div class="right">
+          <p>Follow Us On</p>
+         <a href="">Instagram</a>
+        </div> -->
+
+    </header>
+
+    <div class="container">
+        <h1>Join the best Gym of Pune now</h1>
+        <form action="noaction.php">
+            <div class="form-class">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-class">
+                <input type="number" placeholder="Your Age">
+            </div>
+            <div class="form-class">
+                <input type="email" placeholder="Your Email">
+            </div>
+            <div class="form-class">
+                <input type="number" placeholder="Your Mobile Number">
+            </div>
+            <div class="form-class">
+                <input type="text" placeholder="Your Gender">
+            </div>
+            <div class="form-class">
+                <input type="text" placeholder="Your Locality">
+            </div>
+            <button class="sun">Submit</button>
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
